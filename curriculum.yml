@@ -1,0 +1,39 @@
+# Conformance manifest — boulingua/nvt.
+#
+# Two fields, because they are two facts. `declared_conformance` is the TARGET
+# this course is aiming at; `conformance_status` is whether it has got there.
+# Collapsing them makes "aiming at core and not there yet" indistinguishable
+# from a lesser target, and a course does not aim at partial.
+#
+# A1 to B1 as the conformance floor, extending to `full` later. C2 is
+# explicitly out of scope in the ROADMAP and stays out of levels_claimed.
+
+framework: boulingua-curriculum
+framework_version: 1.2.0
+language: nl
+declared_conformance: core
+conformance_status: in-progress
+
+levels_claimed: [A1, A2, B1]
+
+# No pages yet. This course is at Stage 4: the plan exists, the units do not.
+# Gate A16 runs with --level-check off until the first tranche lands, which is
+# what M0 means — the claim is declared and the coverage is not yet asserted.
+pages: {}
+
+implements:
+  distinct_descriptors: 0
+  proposed: 0
+  asserted: 0
+
+realizations: []
+
+gaps: []
+# Every in-scope cell is a gap right now, and listing 206 of them before a
+# single unit exists would be noise rather than honesty. Gaps are declared
+# against real coverage, once there is coverage to be short of.
+
+out_of_scope: []
+# B2 and above are not out of scope — they are later. Out-of-scope means a cell
+# this course will never cover, and that is a decision with a reason, not a
+# sequencing note.
