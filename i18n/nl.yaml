@@ -1,0 +1,8 @@
+presentations: { other: "Presentaties" }
+worksheets: { other: "Werkbladen" }
+presentation: { other: "Presentatie" }
+worksheet: { other: "Werkblad" }
+download: { other: "Downloaden" }
+listen: { other: "Beluisteren" }
+audio_intro: { other: "Audio bij deze eenheid, ingesproken met een Nederlandse stem." }
+exam: { other: "Examen" }
