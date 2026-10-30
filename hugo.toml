@@ -88,60 +88,32 @@ enableRobotsTXT = true
 # Start lives behind the navbar brand. Groups have an identifier; children set
 # `parent`. This is the standard menu shape every course follows.
 [[menu.main]]
-  name = "Levels"
-  weight = 2
-  identifier = "levels"
-[[menu.main]]
-  parent = "levels"
-  weight = 21
-  name = "A1 — Beginner (example)"
-  url = "/level-a1/"
-
-[[menu.main]]
-  name = "Materials"
-  weight = 3
-  identifier = "materials"
-[[menu.main]]
-  parent = "materials"
-  weight = 31
-  name = "Slide decks"
-  url = "/materials/presentations/"
-[[menu.main]]
-  parent = "materials"
-  weight = 32
-  name = "Worksheets"
-  url = "/materials/worksheets/"
-
-[[menu.main]]
-  name = "About"
-  weight = 4
-  identifier = "about"
-[[menu.main]]
-  parent = "about"
-  weight = 41
-  name = "About this course"
+  name = "Kursstand"
   url = "/about/"
-
+  weight = 1
 [[menu.main]]
-  name = "Legal"
-  weight = 9
+  name = "Materialien"
+  url = "/materials/"
+  weight = 2
+[[menu.main]]
+  name = "Rechtliches"
   identifier = "legal"
+  weight = 9
 [[menu.main]]
   parent = "legal"
-  weight = 91
   name = "Impressum"
   url = "/impressum/"
+  weight = 91
 [[menu.main]]
   parent = "legal"
-  weight = 92
   name = "Datenschutz"
   url = "/datenschutz/"
+  weight = 92
 [[menu.main]]
   parent = "legal"
-  weight = 93
   name = "Haftungsausschluss"
   url = "/haftungsausschluss/"
-
+  weight = 93
 [module]
   # Import order is load-bearing, and it is the opposite of what reads
   # naturally. Hugo resolves module files FIRST-MATCH-WINS in listed order, so
