@@ -76,7 +76,7 @@ enableRobotsTXT = true
     # Privacy-friendly, cookieless analytics. Set domain to enable; leave
     # empty to disable (the head partial is guarded on domain).
       domain = "boulingua.github.io/nvt"   # gate C9 compares this against the emitted data-domain
-    src = "https://plausible.io/js/script.js"
+    src = "https://analytics.hellebo.de/js/script.file-downloads.outbound-links.js"
 
 [[params.social]]
   name = "GitHub"
