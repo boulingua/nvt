@@ -1,4 +1,7 @@
 ---
+analytics_policy: plausible
+analytics_notice_language: de
+analytics_notice_path: /datenschutz/
 page_type: legal
 title: Datenschutzerklärung
 author: S. Le Boulanger
@@ -178,6 +181,11 @@ Diese Daten werden nicht ohne Ihre Einwilligung weitergegeben.
 ## 4. Analyse-Tools und Tools von Drittanbietern
 
 ### Plausible Analytics (selbst gehostet)
+
+Auf dieser Website ist Plausible Analytics aktiviert.
+Das eingebundene Skript ist
+`https://analytics.hellebo.de/js/script.file-downloads.outbound-links.js`;
+die konfigurierte Website-Kennung lautet `boulingua.github.io/nvt`.
 
 Diese Website verwendet **Plausible Analytics** zur statistischen
 Reichweitenmessung. Plausible wird als **selbst gehostete
