@@ -83,3 +83,11 @@ release pins have not been promoted to new foundation releases.
 The build included the first-tranche drafts. Their learner/teacher/deck PDFs,
 source-bound review records and thumbnail locks are present; linguistic and
 pedagogical review remains pending. This is a first unit, not a completed course.
+
+## Integration with main — 10 November 2026
+
+This branch was updated by merging `main` before integration. Main's published
+foundation set (org v2.0.1, kit v2.0.1, curriculum v1.3.0) replaces the
+historical release pins recorded above, and main's later privacy notice
+(4 November) replaces the 31 October Plausible wording. The draft first-tranche
+pages stay unpublished (`draft: true`) pending review.
