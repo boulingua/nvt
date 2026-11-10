@@ -16,22 +16,42 @@ conformance_status: in-progress
 
 levels_claimed: [A1, A2, B1]
 
-# No pages yet. This course is at Stage 4: the plan exists, the units do not.
-# Gate A16 runs with --level-check off until the first tranche lands, which is
-# what M0 means — the claim is declared and the coverage is not yet asserted.
-pages: {}
+# First A1 tranche: one teaching unit and its assessment now carry proposed
+# mappings. Pronunciation drafts and task evidence await review; no M2 or
+# achieved coverage claim follows from these two pages.
+pages:
+  A1: 2
 
 implements:
-  distinct_descriptors: 0
-  proposed: 0
+  distinct_descriptors: 5
+  proposed: 2
   asserted: 0
-
-realizations: []
+realizations:
+- implements_id: A1.REC.overall-reading-comprehension.01
+  page: a1/units/unit01-erste-begegnung
+- implements_id: A1.INT.conversation.03
+  page: a1/units/unit01-erste-begegnung
+- implements_id: A1.INT.information-exchange.05
+  page: a1/units/unit01-erste-begegnung
+- implements_id: A1.LING.orthographic-control.01
+  page: a1/units/unit01-erste-begegnung
+- implements_id: A1.SOC.sociolinguistic-appropriateness.01
+  page: a1/units/unit01-erste-begegnung
+- implements_id: A1.REC.overall-reading-comprehension.01
+  page: a1/units/unit01-erste-begegnung-exam
+- implements_id: A1.INT.conversation.03
+  page: a1/units/unit01-erste-begegnung-exam
+- implements_id: A1.INT.information-exchange.05
+  page: a1/units/unit01-erste-begegnung-exam
+- implements_id: A1.LING.orthographic-control.01
+  page: a1/units/unit01-erste-begegnung-exam
+- implements_id: A1.SOC.sociolinguistic-appropriateness.01
+  page: a1/units/unit01-erste-begegnung-exam
 
 gaps: []
-# Every in-scope cell is a gap right now, and listing 206 of them before a
-# single unit exists would be noise rather than honesty. Gaps are declared
-# against real coverage, once there is coverage to be short of.
+# This empty list does not assert complete coverage. Review the proposed task
+# evidence in docs/first-tranche-review-2026-10-31.json, then identify and author
+# the remaining in-scope cells before claiming the declared target.
 
 out_of_scope: []
 # B2 and above are not out of scope — they are later. Out-of-scope means a cell

@@ -1,0 +1,140 @@
+{
+  "scope": "Pronunciation drafts and one A1 teaching unit with its assessment; no M2 or achieved coverage claim",
+  "sources": [
+    {
+      "url": "https://www.vlaanderen.be/team-taaladvies/taaladviezen/ei-ij",
+      "use": "ei/ij spelling distinction"
+    },
+    {
+      "url": "https://www.vlaanderen.be/team-taaladvies/spellingregels/klinkers/klinkers-1-enkele-of-dubbele-klinker",
+      "use": "Vowel length and syllable spelling"
+    }
+  ],
+  "pages": [
+    {
+      "page": "a1/units/unit01-erste-begegnung",
+      "sha256": "9bf8f42e711f5be8ed573211521931a773badc7ca80215ff68778eaaaa8f21de",
+      "review_status": "pending",
+      "reviewer": null,
+      "mappings": [
+        {
+          "id": "A1.REC.overall-reading-comprehension.01",
+          "statement": "You can make sense of very short, simple texts one phrase at a time, spotting familiar names, words and basic phrases and rereading as needed.",
+          "basis": "proposed",
+          "task_evidence": "Input dialogues and Practise1/4 distinguish names, origin and residence; exam1 reads a new card.",
+          "review_decision": null
+        },
+        {
+          "id": "A1.INT.conversation.03",
+          "statement": "You introduce someone and use basic phrases for greeting and taking your leave.",
+          "basis": "proposed",
+          "task_evidence": "Apply has two role-specific introductions and closings; exam3 repeats with new data.",
+          "review_decision": null
+        },
+        {
+          "id": "A1.INT.information-exchange.05",
+          "statement": "I can tell people my name and ask other people theirs.",
+          "basis": "proposed",
+          "task_evidence": "Practise2/Apply asks names with jij/u; exam3 elicits a partner name.",
+          "review_decision": null
+        },
+        {
+          "id": "A1.LING.orthographic-control.01",
+          "statement": "You copy familiar words and short phrases (signs, instructions, object names, shop names, set phrases), spell your address, nationality, and other personal details, and use basic punctuation like full stops and question marks.",
+          "basis": "proposed",
+          "task_evidence": "Practise3 copies full names and particles; exam2 copies name/word forms and exam4 writes short sentences.",
+          "review_decision": null
+        },
+        {
+          "id": "A1.SOC.sociolinguistic-appropriateness.01",
+          "statement": "I can make basic social contact using the simplest everyday polite forms: greetings and goodbyes, introductions, and saying please, thank you, and sorry.",
+          "basis": "proposed",
+          "task_evidence": "Two encounter settings explicitly contrast informal/formal greeting, thanking and address; exam3 observes consistency.",
+          "review_decision": null
+        }
+      ],
+      "source_revisions": [
+        {
+          "previous_sha256": "b1da84497d7bf6f659e4ebc3bd3322a8728861eb392aca8d56ca9de841b38fa3",
+          "reason": "Added verified draft download metadata; teaching body unchanged."
+        },
+        {
+          "previous_sha256": "64a724c23e2a166a136e81f2aa4de7f0da7d15a10335437c9fd51d07c54211ee",
+          "reason": "Added an explicit source list for existing inline citations and clarified fictional examples; human review remains pending."
+        }
+      ]
+    },
+    {
+      "page": "a1/units/unit01-erste-begegnung-exam",
+      "sha256": "6fd061f6830e1de8c8b590784f164dda931afdc99dc1807565b1a236edd2565f",
+      "review_status": "pending",
+      "reviewer": null,
+      "mappings": [
+        {
+          "id": "A1.REC.overall-reading-comprehension.01",
+          "statement": "You can make sense of very short, simple texts one phrase at a time, spotting familiar names, words and basic phrases and rereading as needed.",
+          "basis": "proposed",
+          "task_evidence": "Input dialogues and Practise1/4 distinguish names, origin and residence; exam1 reads a new card.",
+          "review_decision": null
+        },
+        {
+          "id": "A1.INT.conversation.03",
+          "statement": "You introduce someone and use basic phrases for greeting and taking your leave.",
+          "basis": "proposed",
+          "task_evidence": "Apply has two role-specific introductions and closings; exam3 repeats with new data.",
+          "review_decision": null
+        },
+        {
+          "id": "A1.INT.information-exchange.05",
+          "statement": "I can tell people my name and ask other people theirs.",
+          "basis": "proposed",
+          "task_evidence": "Practise2/Apply asks names with jij/u; exam3 elicits a partner name.",
+          "review_decision": null
+        },
+        {
+          "id": "A1.LING.orthographic-control.01",
+          "statement": "You copy familiar words and short phrases (signs, instructions, object names, shop names, set phrases), spell your address, nationality, and other personal details, and use basic punctuation like full stops and question marks.",
+          "basis": "proposed",
+          "task_evidence": "Practise3 copies full names and particles; exam2 copies name/word forms and exam4 writes short sentences.",
+          "review_decision": null
+        },
+        {
+          "id": "A1.SOC.sociolinguistic-appropriateness.01",
+          "statement": "I can make basic social contact using the simplest everyday polite forms: greetings and goodbyes, introductions, and saying please, thank you, and sorry.",
+          "basis": "proposed",
+          "task_evidence": "Two encounter settings explicitly contrast informal/formal greeting, thanking and address; exam3 observes consistency.",
+          "review_decision": null
+        }
+      ]
+    }
+  ],
+  "native_review": null,
+  "pedagogical_review": null,
+  "audio_decision": "transcript-only draft; no recording approved",
+  "reference_pages": [
+    {
+      "page": "aussprache/klinkers",
+      "sha256": "576fe8fad7ba3e6457a60b723dc5b74f21abdeeb858b7cbb9477b430767bd848",
+      "review_status": "pending",
+      "reviewer": null,
+      "checks": [
+        "Check script and example spelling against cited primary references",
+        "Check pronunciation explanations and scoped exceptions",
+        "Exercise instructions with intended beginners",
+        "Review any future recording separately; no audio approval inferred"
+      ]
+    },
+    {
+      "page": "aussprache/letters-en-ij",
+      "sha256": "d9eb3f0fd19018d6c7d80085090295a24272ae62bef648de47eddf46680ba847",
+      "review_status": "pending",
+      "reviewer": null,
+      "checks": [
+        "Check script and example spelling against cited primary references",
+        "Check pronunciation explanations and scoped exceptions",
+        "Exercise instructions with intended beginners",
+        "Review any future recording separately; no audio approval inferred"
+      ]
+    }
+  ]
+}
