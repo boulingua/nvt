@@ -1,11 +1,11 @@
 ---
+analytics_policy: plausible
+analytics_notice_language: de
+analytics_notice_path: /datenschutz/
 page_type: legal
 title: Datenschutzerklärung
 author: S. Le Boulanger
 date: 2026-08-26
-analytics_policy: plausible
-analytics_notice_language: de
-analytics_notice_path: /datenschutz/
 ---
 
 ## 1. Verantwortlicher
@@ -63,12 +63,18 @@ Vorgang auf:
 
 ### Empfänger und Übermittlung in Drittländer
 
-Die Website wird über GitHub Pages ausgeliefert. Beim Abruf verarbeitet
-GitHub technische Verbindungsdaten; dabei ist eine Verarbeitung in den USA
-möglich. Einzelheiten stehen in der verlinkten Datenschutzerklärung von GitHub.
-Die Schriftdateien werden von dieser Website selbst ausgeliefert.
-Der aktuelle Einsatz von Plausible Analytics ist im Abschnitt zur
-Reichweitenmessung beschrieben; Angaben zu weiteren Diensten stehen gesondert.
+Hosting der Website-Auslieferung erfolgt durch GitHub, Inc.
+(siehe Abschnitt 3 *Server-Log-Dateien*); damit ist eine
+Verarbeitung personenbezogener Daten in den USA möglich.
+Schriftarten werden über Google Fonts (siehe Abschnitt 5)
+ausgeliefert; auch hier ist eine Übermittlung in die USA möglich.
+Beide Übermittlungen erfolgen auf Grundlage des EU-US Data
+Privacy Framework bzw. der Standardvertragsklauseln.
+
+Eine darüber hinausgehende Übermittlung in Drittländer findet
+**nicht** statt. Die Reichweitenmessung mittels Plausible
+Analytics erfolgt auf einer **selbst gehosteten Instanz auf einem
+Server in Deutschland**; siehe Abschnitt 4.
 
 ### Widerruf Ihrer Einwilligung zur Datenverarbeitung
 
@@ -174,19 +180,42 @@ Diese Daten werden nicht ohne Ihre Einwilligung weitergegeben.
 
 ## 4. Analyse-Tools und Tools von Drittanbietern
 
-### Plausible Analytics
+### Plausible Analytics (selbst gehostet)
 
 Auf dieser Website ist Plausible Analytics aktiviert.
-Das Analyseskript wird von `https://analytics.hellebo.de/js/script.file-downloads.outbound-links.js` geladen. Die Aufrufe werden der
-Kennung `boulingua.github.io/nvt` zugeordnet. Vorgesehen sind Seitenaufrufe,
-Dateidownloads und Klicks auf externe Links. Der Browser kontaktiert dafür
-die selbst gehostete Instanz unter `analytics.hellebo.de`.
+Das eingebundene Skript ist
+`https://analytics.hellebo.de/js/script.file-downloads.outbound-links.js`;
+die konfigurierte Website-Kennung lautet `boulingua.github.io/nvt`.
 
-Für Auskünfte zum Betrieb dieser Instanz, zur Verarbeitung und zur
-Aufbewahrungsdauer wenden Sie sich an die oben genannte verantwortliche
-Stelle. Die [Dokumentation der Software](https://plausible.io/data-policy)
-beschreibt Plausible allgemein; sie bestätigt nicht die konkrete
-Serverkonfiguration dieses Angebots.
+Diese Website verwendet **Plausible Analytics** zur statistischen
+Reichweitenmessung. Plausible wird als **selbst gehostete
+Instanz** unter `analytics.hellebo.de` betrieben; der Server
+steht in **Deutschland**. Eine Übermittlung der Messdaten an die
+Plausible Insights OÜ (Tartu, Estland) oder an andere
+Drittanbieter findet **nicht** statt.
+
+Plausible ist **cookielos** und erhebt **keine
+personenbezogenen Daten** im engeren Sinn. IP-Adressen werden
+nicht gespeichert; zur Sitzungserkennung wird täglich rotierend
+ein gesalzener Hash gebildet. Eine seitenübergreifende
+Wiedererkennung von Nutzerinnen und Nutzern findet nicht statt.
+
+Erhoben und ausgewertet werden insbesondere:
+
+- aufgerufene Seiten-URL,
+- Verweisquelle (Referrer),
+- grobe Geolokation auf Länderebene,
+- Gerätetyp, Browser, Betriebssystem (anhand User-Agent).
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes
+Interesse an einer datensparsamen, anonymen
+Reichweitenmessung). Eine Einwilligung nach § 25 TDDDG ist
+nicht erforderlich, da kein Zugriff auf bzw. keine Speicherung
+von Informationen im Endgerät stattfindet, die nicht unbedingt
+erforderlich sind.
+
+Weitere Informationen:
+<https://plausible.io/data-policy>
 
 ### VG Wort Zählpixel (Standard)
 
@@ -274,4 +303,4 @@ stehen Ihnen folgende Rechte zu:
 Zur Wahrnehmung dieser Rechte wenden Sie sich an die unter
 Abschnitt 1 genannte Verantwortliche.
 
-*Stand: 2026-10-31.*
+*Stand: 2026-05-05.*
